@@ -1,5 +1,6 @@
 import navbar from "../components/navbar.js";
 
+
 let nav = document.getElementById("navbar");
 nav.innerHTML = navbar();
 
@@ -32,3 +33,8 @@ id = setInterval(function () {
   container.append(img);
   i++;
 }, 1500);
+
+
+let nav=document.getElementById("navbar");
+nav.innerHTML=navbar();
+
