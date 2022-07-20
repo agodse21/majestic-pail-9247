@@ -8,7 +8,6 @@
     width: 100%;
     margin: auto;
     background-color: #FFFF;
-    border-bottom: 1px solid black;
 }
 #navbar{
     width: 90%;
@@ -104,4 +103,38 @@ font-weight:100;
 }
 #lgn{
     margin:-3 10px;
+}
+.sub-menu-1{
+    display: none;
+}
+#Login:hover .sub-menu-1 {
+    display: block;
+    position: fixed;
+    background: rgb(246,246,246);
+    margin-top: 1px;
+    margin-left: -18px;
+}
+#Login:hover .sub-menu-1 ul{
+    text-align: start;
+    display: block;
+    margin: 10px;
+}
+#Login:hover .sub-menu-1 ul li{
+    width: 250px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+    color: #0037ff;
+}
+#Login:hover .sub-menu-1 ul li:hover{
+    color: black;
+    margin-right: 20px;
+}
+#Login:hover .sub-menu-1 ul p{
+     margin-left: 15px;
+}
+#Login:hover .sub-menu-1 ul .button__svg{
+    margin-left: 15px;
+    color: #0037ff;
 }
