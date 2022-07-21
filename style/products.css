@@ -236,7 +236,6 @@
     color: white;
   cursor: pointer;
 
-
 }
 #card_section>div>p:hover{
     color: white;
@@ -493,7 +492,9 @@ margin-bottom: 20px;
 }
 #last>div>img{
     width: 30px;
-    
+
+    cursor: pointer;
+
    /* margin-left: -50px; */
 }
 #last>div>a{

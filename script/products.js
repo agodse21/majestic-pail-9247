@@ -35,6 +35,23 @@ id = setInterval(function () {
 }, 1500);
 
 
-let nav=document.getElementById("navbar");
-nav.innerHTML=navbar();
+
+let Get_str_btn=document.getElementById("Get_str");
+Get_str_btn.addEventListener("click",function(){
+  landingTologin();
+});
+
+let landingTologin=()=>{
+  window.location.href="./login.html"
+}
+
+let see_more_btn=document.getElementById("see_more_btn");
+see_more_btn.addEventListener("click",function(){
+  see_more();
+})
+
+let see_more=()=>{
+  window.location.href="./customer_storis.html"
+}
+
 
