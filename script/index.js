@@ -2,7 +2,11 @@ function getdata(e) {
 
     e.preventDefault()
 
+
+    let form_data = document.getElementById("data")
+
     let form_data = document.getElementById("form_data")
+
 
     let name = form_data.name.value
 
@@ -20,7 +24,12 @@ function getdata(e) {
 
 
 
+    // console.log(name, last, email, company, job, phn, india)
+    alert("Your enter successfully !")
+
+
 
     alert("Your IdentitY is confirm !")
     console.log(name, last, email, company, job, phn, india)
+
 }
