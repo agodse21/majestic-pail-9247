@@ -2,15 +2,23 @@
 body{
     margin: 0px;
     padding: 0px;
+
     font-family:Arial,sans-serif;
+
 }
 
 #tbody{
     height: auto;
     width: 90%;
+
     /* border: 1px solid red; */
     margin: auto;
    
+
+    border: 1px solid red;
+    margin: auto;
+    font-family:Arial,sans-serif;
+
 }
 
 
@@ -299,6 +307,7 @@ body{
     /*---------------------------------------Solutions just for you----------------------------------------*/
 
     #solutions{
+
         height: 750px;
         width: 100%;
         /* border: 1px solid red; */
@@ -703,4 +712,12 @@ body{
 
 
 
+
+        height: 500px;
+        width: 100%;
+        border: 1px solid red;
+        margin-top: 100px;
+    }
+
+    
 
