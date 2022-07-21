@@ -1,5 +1,6 @@
 import navbar from "../components/navbar.js";
 
+
 let nav = document.getElementById("navbar");
 nav.innerHTML = navbar();
 
@@ -34,6 +35,7 @@ id = setInterval(function () {
 }, 1500);
 
 
+
 let Get_str_btn=document.getElementById("Get_str");
 Get_str_btn.addEventListener("click",function(){
   landingTologin();
@@ -51,3 +53,5 @@ see_more_btn.addEventListener("click",function(){
 let see_more=()=>{
   window.location.href="./customer_storis.html"
 }
+
+
