@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+#header{
+    width: 100%;
+    margin: auto;
+    background-color: #FFFF;
+}
+#navbar{
+    width: 90%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    background-color: #FFFF;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background-color: #0037ff;
+    margin: auto ;
+    display: block
+}
+a:hover:after{
+    width: 100%;
+    margin-top: 35px;
+   
+    transition: width 0.0s step-end;
+}
+a:hover{
+    color: #0037ff;
+    position: sticky;
+}
+h1{
+    margin: 18px;
+    font-size: 16px;
+    padding: 17px;
+    font-weight: 100;
+    position: sticky;
+}
+#products{
+    margin:  18px ;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+}
+#btn{
+    height: 50px;
+    margin:  20px ;
+    padding: 11px 32px;
+    font-family: Arial,sans-serif;
+    font-size: 17px;
+    color: #FFFF;
+    background-color: #0037ff;
+    border-radius:50px ;
+    border: none;
+}
+#btn:hover{
+background-color: #071576;
+}
+#search{
+    margin: 18px;
+    padding: 16px;
+border: none;
+background-color: transparent;
+font-family: Arial,sans-serif;
+font-size: 16px;
+font-weight:100;
+}
+#Login{
+    padding: 16px;
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+#logo{
+    width: 10%;
+    height: 80px;
+    margin: 0px auto;
+}
+#logo:hover{
+    cursor: pointer;
+}
+#main{
+    height: 90px;
+    display: flex;
+    margin: 0px 350px 0px 0px;
+}
+#main>h1{
+    padding: 16px;
+}
+#lg{
+    margin:-4 10px;
+}
+#lgn{
+    margin:-3 10px;
+}
+.sub-menu-1{
+    display: none;
+}
+#Login:hover .sub-menu-1 {
+    display: block;
+    position: fixed;
+    background: rgb(246,246,246);
+    margin-top: 1px;
+    margin-left: -18px;
+}
+#Login:hover .sub-menu-1 ul{
+    text-align: start;
+    display: block;
+    margin: 10px;
+}
+#Login:hover .sub-menu-1 ul li{
+    width: 250px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+    color: #0037ff;
+}
+#Login:hover .sub-menu-1 ul li:hover{
+    color: black;
+    margin-right: 20px;
+}
+#Login:hover .sub-menu-1 ul p{
+     margin-left: 15px;
+}
+#Login:hover .sub-menu-1 ul .button__svg{
+    margin-left: 15px;
+    color: #0037ff;
+}
