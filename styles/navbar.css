@@ -9,6 +9,7 @@
     margin: auto;
     background-color: #FFFF;
     position: relative;
+
 }
 #navbar{
     width: 90%;
@@ -16,6 +17,7 @@
     height: 90px;
     display: flex;
     background-color: #FFFF;
+
     position: relative;
 }
 a{
@@ -35,6 +37,11 @@ a:hover:after{
     margin-top: 35px;
    
     transition: width 0.0s step-end;
+}
+
+a:hover{
+    color: #0037ff;
+    position: sticky;
 }
 
 h1{
@@ -105,6 +112,7 @@ font-weight:100;
 }
 .sub-menu-1{
     display: none;
+
     top: 90px;
 }
 #Login{
@@ -116,7 +124,9 @@ font-weight:100;
     background: rgb(246,246,246);
     margin-top: 1px;
     margin-left: -18px;
+
     transition: all 1.0s step-end;
+
 }
 #Login:hover .sub-menu-1 ul{
     text-align: start;
@@ -133,7 +143,8 @@ font-weight:100;
 }
 #Login:hover .sub-menu-1 ul li:hover{
     color: black;
-  
+
+    margin-right: 20px;
 }
 #Login:hover .sub-menu-1 ul p{
      margin-left: 15px;
@@ -141,6 +152,7 @@ font-weight:100;
 #Login:hover .sub-menu-1 ul .button__svg{
     margin-left: 15px;
     color: #0037ff;
+
 }
 .mega-box{
     position: absolute;
@@ -233,4 +245,5 @@ header:hover #svg{
 }
 #Login:hover .sub-menu-1 ul li:hover #svg{
     margin-left: 40px; 
+
 }

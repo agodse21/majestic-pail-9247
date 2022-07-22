@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial,sans-serif;
+}
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+}
+#first_div{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+#logo{
+    margin-right: -80px;
+}
+#logo_sec{
+  display: flex;
+  gap: 40px;
+  height: 100%;
+}
+#logo_sec>div>a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+#logo_sec>div:hover{
+    height: 100%;
+    border-bottom: 4px solid blue;
+}
+#logo_sec>div>a:hover{
+    color: blue;
+    /* margin-bottom: -5px; */   
+}
+#second_div{
+    width: 35%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+#second_div>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#second_div>div>a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.content:hover{
+    color: blue;
+    border-bottom: 4px solid blue;
+}
+#second_div>div>a:hover{
+    color: blue;
+}
+#second_div>div>a>img{
+    width: 25%;
+    margin-right:8px;
+}
+#create_acc{
+    width: 200px;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: blue;
+}
+#create_acc:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 152);
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* * */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+#section_1{
+    width: 84%;
+    position: relative;
+    margin: 0px auto;
+}
+#section_1 > img{
+    margin-left: 300px;
+}
+.sp1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+#section_1 > img {
+    width: 1026px;
+    height: 678px;
+}
+
+#box1{
+    width: 45%;
+    height: 350px;
+}
+#box1 > h1 {
+    font-family: "TT Commons",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 3.9rem;
+    line-height: 4.6rem;
+    margin-bottom: 1.6rem;
+    font-size: 40px;
+    line-height: 56px;
+}
+#box1 > p {
+    font-family: "TT Commons",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+#box1 > a {
+    font-family: "TT Commons",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 100px;
+}
+#box2{
+    height: 500px;
+    margin-top: 100px;
+}
+.images {
+    display: flex;
+    gap: 20px;
+    line-height: 25px;
+}
+.images:nth-child(2){
+    margin: 20px 0px; 
+}
+.images > div > img {
+    width: 270px;
+    height: 152px;
+    border-radius: 5px;
+}
+
+.images > div:nth-child(2) {
+    width: 400px;
+}
+
+.images > h4 {
+    font-family: "TT Commons",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+#article > p,li,ul {
+    font-family: "NBI Pro Mono",Arial,sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+#article > ul,p{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.fa-solid {
+    margin-left: 9px;
+}
+
+/* ***************************section2*************************   */
+
+#section2 {
+    width: 85%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+/* ***************************section3************************* */
+
+#section3 {
+    width: 52%;
+    margin: 100px 150px;
+}
+#section4>h1{
+    width: 85%;
+    margin: auto;
+}
+.section4 {
+    width: 85%;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    gap: 30px;
+}
+
+#subcribe{
+    width: 86%;
+    margin: 100px auto;
+    height: 280px;
+    background-color: #ffcc00;
+    border: 1px solid;
+    position: relative;
+}
+#background > img {
+    width: 993px;
+    height: 307px;
+    object-fit: cover;
+    opacity: .4;
+    position: relative;
+}
+#background > h1{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+}
+#background > p{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+}
+#background > button{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+}
+#video > video{
+    margin: 100px 140px;
+}

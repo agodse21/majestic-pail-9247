@@ -5,6 +5,7 @@ let lgn=()=>{
 let lgn1=()=>{
     window.location.href="signup.html"
     document.getElementByClassName('lgn1').style.borderBottom="4px solid blue"
+
 }
 
 let conti=()=>{
@@ -54,3 +55,6 @@ let conti=()=>{
     
     
     
+
+}
+
