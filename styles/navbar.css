@@ -8,6 +8,7 @@
     width: 100%;
     margin: auto;
     background-color: #FFFF;
+    position: relative;
 }
 #navbar{
     width: 90%;
@@ -15,6 +16,7 @@
     height: 90px;
     display: flex;
     background-color: #FFFF;
+    position: relative;
 }
 a{
     text-decoration: none;
@@ -34,10 +36,7 @@ a:hover:after{
    
     transition: width 0.0s step-end;
 }
-a:hover{
-    color: #0037ff;
-    position: sticky;
-}
+
 h1{
     margin: 18px;
     font-size: 16px;
@@ -106,6 +105,10 @@ font-weight:100;
 }
 .sub-menu-1{
     display: none;
+    top: 90px;
+}
+#Login{
+    font-size: 16px;
 }
 #Login:hover .sub-menu-1 {
     display: block;
@@ -113,6 +116,7 @@ font-weight:100;
     background: rgb(246,246,246);
     margin-top: 1px;
     margin-left: -18px;
+    transition: all 1.0s step-end;
 }
 #Login:hover .sub-menu-1 ul{
     text-align: start;
@@ -129,7 +133,7 @@ font-weight:100;
 }
 #Login:hover .sub-menu-1 ul li:hover{
     color: black;
-    margin-right: 20px;
+  
 }
 #Login:hover .sub-menu-1 ul p{
      margin-left: 15px;
@@ -137,4 +141,96 @@ font-weight:100;
 #Login:hover .sub-menu-1 ul .button__svg{
     margin-left: 15px;
     color: #0037ff;
+}
+.mega-box{
+    position: absolute;
+    top: 72px;
+    width: 2650px;
+    right: -1480px;
+    opacity: 0;
+    visibility: hidden;
+}
+.mega-box .section{
+    background: rgb(246,246,246);
+    display: flex;
+    width: 80%;
+   margin: auto;
+}
+.section .row{
+   width:0px;
+   margin:90px auto 0px;
+   list-style: none;
+   padding: 10px;
+}
+#Resources:hover .mega-box{
+    opacity: 1;
+    visibility: visible;
+    transition:  all 0.8s ease-out;
+}
+#IMG{
+    width: 193.86px;
+    height: 193.86px;
+    margin-right: 0px;
+}
+#megalinks{
+    width: 40%;
+    text-align: left;
+    display: grid;
+    flex-direction: row;
+    margin: 90px;
+}
+
+
+.section .row .mega-links{
+    margin-left: -200px;
+    font-size: 14px;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-color: gray;
+    padding: 15px;
+    color: blue;
+    line-height: 40px;
+    list-style: none;
+}
+.mega-links li:hover{
+text-decoration: underline blue;
+}
+header{
+    color: #0037ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-right: 30px;
+   font-weight: 500;
+}
+.buttn{
+    width: 700px;
+    height: 50px;
+    line-height: 15px;
+    display: flex;
+    margin: 5px 0;
+}
+.buttn li{
+    padding: 5px 10px;
+    text-align: center;
+    margin: auto 5px;
+    color: #0037ff;
+    font-size: 14px;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+.buttn li:hover{
+    background-color: #0037ff;
+    color: white;
+}
+.content{
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: grid;
+    height: 200px;
+}
+header:hover #svg{
+  
+   margin-left: 20px;
+   
+}
+#Login:hover .sub-menu-1 ul li:hover #svg{
+    margin-left: 40px; 
 }
