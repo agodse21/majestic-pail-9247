@@ -5,6 +5,10 @@ body{
 
     font-family:Arial,sans-serif;
 
+
+    font-family:Arial,sans-serif;
+
+
 }
 
 #tbody{
@@ -15,9 +19,15 @@ body{
     margin: auto;
    
 
+
+    /* border: 1px solid red; */
+    margin: auto;
+   
+
     border: 1px solid red;
     margin: auto;
     font-family:Arial,sans-serif;
+
 
 }
 
@@ -713,6 +723,7 @@ body{
 
 
 
+
         height: 500px;
         width: 100%;
         border: 1px solid red;
@@ -720,4 +731,5 @@ body{
     }
 
     
+
 
