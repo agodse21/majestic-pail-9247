@@ -28,8 +28,12 @@
  #logo{
     width: 440px;
     height: 334.14px;
+
+    margin-top: 51%;
+    margin-left: -225px;
     margin-top: 21.5%;
     margin-left: -180px;
+
 }
 #lgn{
     width: 170px;
@@ -120,7 +124,10 @@ strong{
 #btn{
     width: 25px;
     height: 25px;
-    margin: 400px 0 0 250px;
+
+    margin: 500px 0 0 250px;
+ margin: 400px 0 0 250px;
+
     border-radius: 50px;
     background: transparent;
     color: #FFFFFF;
