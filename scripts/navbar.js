@@ -1,6 +1,6 @@
 document.getElementById("welcome").addEventListener('click',go)
 function go(){
-    window.location.href="signup.html"
+    window.location.href="welcome.html"
   }
 
 let shw=JSON.parse(localStorage.getItem("show"))
@@ -11,6 +11,10 @@ let log=document.getElementById("Login")
 log.innerHTML=shw.name
 let logout=document.getElementById("logout")
 logout.innerHTML="Logout"
+logout.style.border="1px solid blue"
+logout.style.padding="15px"
+
+
 logout.addEventListener('click',lgout)
 
   }

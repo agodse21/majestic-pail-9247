@@ -335,3 +335,15 @@ header:hover #svg{
     font-weight: 500;
  
 }
+
+/* <====================================logout========================================>< */
+#logout{
+    margin: auto;
+ 
+    border-radius: 50px;
+    background-color: #0037ff;
+    color: #FFFF;
+}
+#logout:hover{
+background-color: #071576;
+}
