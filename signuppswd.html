@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/styles/welcome.css">
+    <style>
+        #process{
+            background-color: #702BD8;
+        }
+    </style>
 </head>
 <body>
     <div class="main">
     <div id="login">
         <div id="login_page">
-        <img src="/imges/welcome-optimizely-logo.png" id="log" alt="">
+        <img src="/images/welcome-optimizely-logo.png" id="log" alt="">
 
         <div id="signlog">
             <button onclick="lgn()" id="lgn">Login</button>
@@ -20,10 +25,10 @@
         
         <button id="google"><svg class="icon btn-icon" id="icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g clip-rule="evenodd" fill-rule="evenodd"><path d="M27.585 64c0-4.157.69-8.143 1.923-11.881L7.938 35.648C3.734 44.183 1.366 53.801 1.366 64c0 10.191 2.366 19.802 6.563 28.332l21.558-16.503A37.86 37.86 0 0127.585 64" fill="#FBBC05"></path><path d="M65.457 26.182c9.031 0 17.188 3.2 23.597 8.436L107.698 16C96.337 6.109 81.771 0 65.457 0 40.129 0 18.361 14.484 7.938 35.648l21.569 16.471a37.77 37.77 0 0135.95-25.937" fill="#EA4335"></path><path d="M65.457 101.818a37.77 37.77 0 01-35.949-25.937L7.938 92.349C18.361 113.516 40.129 128 65.457 128c15.632 0 30.557-5.551 41.758-15.951L86.741 96.221c-5.777 3.639-13.052 5.597-21.284 5.597" fill="#34A853"></path><path d="M126.634 64c0-3.782-.583-7.855-1.457-11.636h-59.72v24.727h34.376c-1.719 8.431-6.397 14.912-13.092 19.13l20.474 15.828c11.766-10.92 19.419-27.188 19.419-48.049" fill="#4285F4"></path></g></svg><span>Log in with Google</span></button>
         <p id="or">or</p>
-        <h5>Work Email</h5>
-        
-        <input type="email" id="email" oninput="conti(event)" placeholder="Set Password">
-        <button id="process">Set Password<svg class="icon right-arrow-icon" id="arrow" width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.6783 7.39311L12.0723 0.787109L10.8603 1.99911L16.0031 7.14197H0.929408C0.455409 7.14197 0.0722656 7.52597 0.0722656 7.99911C0.0722656 8.47225 0.455409 8.85625 0.929408 8.85625H16.0031L10.8603 13.9991L12.0723 15.2111L18.6783 8.60511C19.0134 8.26997 19.0134 7.72825 18.6783 7.39311Z" fill="white"></path></svg></button>
+        <h5>Work Password</h5>
+        <input type="name" id="name"  placeholder="Enter Name">
+        <input type="password" id="email"  placeholder="Set Password">
+        <button onclick="continu()" id="process">Set Password<svg class="icon right-arrow-icon" id="arrow" width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.6783 7.39311L12.0723 0.787109L10.8603 1.99911L16.0031 7.14197H0.929408C0.455409 7.14197 0.0722656 7.52597 0.0722656 7.99911C0.0722656 8.47225 0.455409 8.85625 0.929408 8.85625H16.0031L10.8603 13.9991L12.0723 15.2111L18.6783 8.60511C19.0134 8.26997 19.0134 7.72825 18.6783 7.39311Z" fill="white"></path></svg></button>
         <p>
             By signing up, you agree to the<strong>Terms</strong> & <strong>Policy</strong>.</p>
     </div>
@@ -47,7 +52,7 @@
 </div>
 </div>
 <div id="footer">
-<img src="/imges/signup.svg" id="logo" alt="">
+<img src="/images/signup.svg" id="logo" alt="">
 
 <button id="btn">?</button>
 </div>

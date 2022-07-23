@@ -1,8 +1,12 @@
-let lgn=()=>{
-    window.location.href="welcome.html"
-    document.getElementById('lgn').style.borderBottom="4px solid blue"
+let obj=JSON.parse(localStorage.getItem("password"))||{};
+
+let pass=()=>{
+ 
+    let pasword=document.querySelector(".password")
+    console.log(pasword)
+    if(obj.password===pasword.value){
+        window.location.href="navbar.html"
+        localStorage.setItem("show",JSON.stringify(obj))
+    }
 }
-let lgn1=()=>{
-    window.location.href="signup.html"
-    document.getElementByClassName('lgn1').style.borderBottom="4px solid blue"
-}
+document.getElementById("process").addEventListener('click',pass)

@@ -3,18 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .main{
     width: 100%;
-    height: 100vh;
+height: 100vh;
     display: flex;
    
 }
 #login{
     width: 66%;
- 
+    height: 100vh;
 }
 #side_div{
     width: 34%;
+    height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(84,32,162);
@@ -28,8 +30,7 @@
  #logo{
     width: 440px;
     height: 334.14px;
-    margin-top: 21.5%;
-    margin-left: -180px;
+    margin-left: -200px;
 }
 #lgn{
     width: 170px;
@@ -116,11 +117,12 @@ strong{
 }
 #footer{
     display: flex;
+    margin-top: -110px;
 }
 #btn{
     width: 25px;
     height: 25px;
-    margin: 400px 0 0 250px;
+    margin: 230px 0 0 250px;
     border-radius: 50px;
     background: transparent;
     color: #FFFFFF;
@@ -133,6 +135,7 @@ strong{
 }
 #side_page2{
     width: 500px;
+    height: 100vh;
     margin: auto;
     display: grid;
 }
@@ -149,4 +152,7 @@ padding: 20px 0;}
     width: 500px;
     margin:150px auto 50px;
     font-size: 24px;
+}
+#name{
+    margin-bottom: 30px;
 }
