@@ -1,0 +1,750 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* *******************************************************section-1 and first box styling ********************************************************* */
+
+#container {
+    width: 80%;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    margin-top: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+#first_div {
+    width: 50%;
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#second_div {
+    width: 50%;
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+}
+
+#text {
+    width: 100%;
+    height: 300px;
+    /* border: 3px solid black; */
+    margin-top: 30px;
+}
+
+#unlock {
+    font-size: 150px;
+    font-family: sans-serif;
+}
+
+#create {
+    /* width: 30%; */
+    font-size: 25px;
+    margin-top: 20px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+
+/* *******************************************************section-1 complete ********************************************************* */
+
+
+/* *******************************************************section-2 style part start ********************************************************* */
+
+#opticon {
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: blue;
+}
+
+#opt_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* *******************************************************section-3 style part start ********************************************************* */
+
+#trust {
+    width: 80%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 120px;
+    font-size: 24px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#grid {
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 30px;
+    column-gap: 300px;
+    margin-top: 50px;
+}
+
+#grid>div {
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+}
+
+#btn-1 {
+    width: 20%;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    margin-top: 20px;
+}
+
+#btn {
+    padding: 20px 72px 20px 72px;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 17px;
+    color: blue;
+    background-color: rgba(0, 55, 255, .2);
+    border: none;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+
+/* *******************************************************section-3 style part complete ********************************************************* */
+
+
+/* *******************************************************section-4 style part start ********************************************************* */
+
+#digital_box {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    display: flex;
+}
+
+#sort_div {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: #080736;
+}
+
+#sort_div img {
+    position: absolute;
+    width: 37%;
+    height: 44%;
+    border: 1px solid white;
+}
+
+#digit {
+    position: absolute;
+}
+
+#big_div {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: #2453f5;
+}
+
+#digital {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-left: 12%;
+    margin-top: 60px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#enimation {
+    width: 100%;
+    height: 400px;
+    /* border: 2px solid white; */
+    margin-left: 12%;
+    margin-top: 30px;
+}
+
+#enme {
+    width: 100%;
+    height: 100%;
+}
+
+#big_text {
+    width: 50%;
+    height: 350px;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 15%;
+    display: grid;
+    color: white;
+    gap: 20px;
+}
+
+#one {
+    font-size: 30px;
+}
+
+#two {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#three {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#four {
+    font-size: 20px;
+    color: #080736;
+}
+
+
+/* *******************************************************section-4 style part end ********************************************************* */
+
+
+/* *******************************************************section-5 style part end ********************************************************* */
+
+#content {
+    width: 100%;
+    height: 400px;
+    /* border: 10px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #861dff;
+}
+
+#content>div {
+    /* border: 1px solid red; */
+}
+
+#content_data {
+    width: 80%;
+    height: 60%;
+    /* border: 2px solid black; */
+    margin: auto;
+    color: white;
+}
+
+#con {
+    font-size: 40px;
+}
+
+#easily {
+    font-size: 20px;
+}
+
+#same {
+    padding: 10px 33px 10px 33px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #861dff;
+    color: white;
+    border-color: white;
+}
+
+#same:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #2453f5;
+}
+
+
+/* *******************************************************section-5 style part end ********************************************************* */
+
+
+/* *******************************************************section-6 style part end ********************************************************* */
+
+#Explore {
+    width: 40%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-left: 4%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#express {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#express>div {
+    /* border: 1px solid black; */
+}
+
+#ex_data {
+    width: 90%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-left: 12%;
+}
+
+#to_create {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#dxp {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+/* *******************************************************section-6 style part end ********************************************************* */
+
+
+/* *******************************************************section-7 style part end ********************************************************* */
+
+#mazad {
+    width: 80%;
+    height: 700px;
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#mazad>div {
+    /* border: 1px solid red; */
+}
+
+#mazaone {
+    width: 100%;
+    height: 100%;
+    background-color: #080736;
+}
+
+#mazatwo {
+    width: 100%;
+    height: 100%;
+    background-color: #861dff;
+}
+
+#mazathree {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* *******************************************************section-7 style part end ********************************************************* */
+
+
+/* *******************************************************section-8 style part end ********************************************************* */
+
+#greeting {
+    width: 80%;
+    height: 1020px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 20px; */
+    padding-left: 4%;
+    background-color: #861dff;
+}
+
+#greeting>div {
+    /* border: 1px solid black; */
+    /* margin-left: -30px; */
+}
+
+#greed_center {
+    width: 100%;
+    height: 990px;
+    /* border: 3px solid red; */
+    margin: 10px auto;
+    /* margin-top: 30px; */
+    background-color: #080736;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: -3px;
+}
+
+#get {
+    font-size: 60px;
+    /* margin-top: 30px; */
+    padding: 20px;
+}
+
+#opt {
+    font-size: 20px;
+    padding: 20px;
+    font-style: justify;
+}
+
+#tech {
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 8%;
+}
+
+#if {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#first {
+    width: 80%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+#form {
+    width: 95%;
+    height: 100%;
+    /* border: 4px solid red; */
+    background-color: #2fb367;
+    padding-left: 40px;
+}
+
+#name {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#Last {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#email {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#company {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#job {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#phn {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#india {
+    padding: 10px 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+}
+
+#box {
+    padding: 40px 170px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: none;
+    background-color: #2fb367;
+    border: 1px solid black;
+}
+
+#submit {
+    padding: 15px 52px;
+    border-radius: 20px;
+    background-color: #861dff;
+    color: white;
+    border: none;
+}
+
+
+/* *******************************************************section-8 style part end *******************************************************
+
+
+
+/* /* *******************************************************section-9 style part end ******************************************************* */
+
+#just {
+    width: 20%;
+    height: 60px;
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+/* /* *******************************************************section-9 style part end ******************************************************* */
+
+
+/* /* *******************************************************section-10 style part end ******************************************************* */
+
+#optcon_box {
+    width: 80%;
+    height: 700px;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    display: flex;
+}
+
+#opt_first {
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid black; */
+}
+
+#opt_second {
+    width: 50%;
+    height: 400px;
+    /* border: 2px solid black; */
+}
+
+#opt_pic {
+    width: 100%;
+    height: 100%;
+}
+
+#opt_inner {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+
+#opt_anotherinner {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+}
+
+#optii {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+#save {
+    font-size: 32px;
+    padding: 10px;
+    color: #2453f5;
+}
+
+#the {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#read {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#whole {
+    width: 100%;
+    height: 900px;
+    /* border: 10px solid red; */
+}
+
+
+/* /* *******************************************************section-10 style part end ******************************************************* */
+
+
+/* /* *******************************************************section-11 style part end ******************************************************* */
+
+
+/* /* *******************************************************section-11 style part end ******************************************************* */
+
+
+/* /* *******************************************************section-12 style part end ******************************************************* */
+
+#footer {
+    background-color: #080736;
+    width: 100%;
+    height: 400px;
+}
+
+#footer>div {
+    width: 90%;
+    margin: auto;
+}
+
+#footer>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#footer>div>img {
+    width: 5%;
+}
+
+#footer>div:first-child>div {
+    color: white;
+}
+
+#footer>div:first-child>div>select {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(70, 70, 116);
+    color: white;
+}
+
+#footer_card {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+#footer_card>div {
+    width: 25%;
+    margin: auto;
+}
+
+#footer_card>div>h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer_card>div>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+#footer_card>div>a:hover {
+    text-decoration: underline;
+}
+
+#footer_card>div:nth-child(4) {
+    padding-bottom: 95px;
+}
+
+#footer_card>div>p {
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+#contact_us {
+    font-size: 18px;
+}
+
+#last {
+    width: 100%;
+    height: 100px;
+    background-color: #393a5d;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly
+}
+
+#last>div {
+    display: flex;
+    gap: 20px;
+}
+
+#last>div>img {
+    width: 30px;
+    cursor: pointer;
+    /* margin-left: -50px; */
+}
+
+#last>div>a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    /* margin-left: -30px;
+    margin-right: -30px; */
+}
+
+#last>p {
+    font-size: 14px;
+}
+
+
+/* /* *******************************************************section-12 style part end ******************************************************* */
