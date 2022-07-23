@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial,sans-serif;
+}
+#navbar{
+    margin-top: -80px;
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+ #first_div{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+#logo{
+    margin-right: -80px;
+}
+#logo_sec{
+    display: flex;
+  gap: 40px;
+  height: 100%;
+}
+#logo_sec>div>a{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+#logo_sec>div:hover{
+    height: 100%;
+    
+    border-bottom: 4px solid blue;
+}
+#logo_sec>div>a:hover{
+    color: blue;
+    /* margin-bottom: -5px; */   
+}
+#second_div{
+    width: 35%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+#second_div>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#second_div>div>a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.content:hover{
+    color: blue;
+    border-bottom: 4px solid blue;
+   
+}
+#second_div>div>a:hover{
+    color: blue;
+    /* margin-bottom: 5px; */
+}
+#second_div>div>a>img{
+    width: 25%;
+    margin-right:8px;
+    /* background-color: blue; */
+}
+#create_acc{
+    width: 200px;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: blue;
+    
+}
+#create_acc:hover{
+    cursor: pointer;
+    background-color: rgb(3, 3, 152);
+}
+#first_sec{
+    position: relative;
+    margin-top: 80px;
+    width: 100%;
+    height: 1000px;
+    /* position:absolute; */
+/* padding-top: 300px; */
+background: linear-gradient(to bottom,#080736 50%,white 50%);
+
+}
+
+#first_sec>div{
+    width: 100%;
+    display: flex;
+justify-content: space-evenly;
+position: relative;
+/* margin-top: 150px; */
+}
+#first_sec>div>h1{
+    width: 28%;
+    color: white;
+    margin-top: 150px;
+    line-height: 40px;
+    /* margin-left: 110px; */
+  
+}
+form{
+    margin-top: 150px;
+    width: 35%;
+    height: 700px;
+    background-color:#f6f6f6;
+    padding: 30px;
+  
+}
+form input{
+    width: 40%;
+    height: 50px;
+    margin: auto;
+    margin-top:20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: none;
+   
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+form>h1{
+    margin-left: 30px;
+
+}
+form>p{
+    margin-left: 30px;
+}
+#job_title{
+    width: 90%;
+}
+#country{
+    width: 50%;
+    height: 50px;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+#area{
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* border-bottom: none; */
+}
+#submit_btn{
+    width: 150px;
+    margin-left: 30px;
+  padding: 15px 20px;
+    display: block;
+    /* margin: auto; */
+    margin-top: 30px;
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+ cursor: pointer;
+}
+#submit_btn:hover{
+    background-color: #080736;
+}
+#first_sec>p{
+    color: black;
+}
+#points{
+    position: relative;
+   margin-top: -250px;  
+  display: flex;
+  flex-direction: column;
+}
+#points>h4{
+    /* margin-top: 350px;   */
+    margin-left: 200px; 
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#points>p{
+    width: 20%;
+    margin-left: 200px; 
+    text-align: justify;
+    line-height: 25px;
+    /* margin-top: 400px;    */
+}
+#brands{
+    margin: auto;
+    width: 90%;
+}
+
+#brands>div{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#see_storis{
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    background-color: blue;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#see_storis:hover{
+    background-color: #080736;
+    cursor: pointer;
+}
+#brands>div>img{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-color: #080736;
+    width: 100%;
+    height: 400px;
+}
+#footer>div{
+    width: 90%;
+    margin: auto;
+   
+    
+}
+#footer>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+#footer>div>img{
+    width: 5%;
+    
+}
+#footer>div:first-child>div{
+    color: white;
+}
+#footer>div:first-child>div>select{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(70, 70, 116);
+    color: white;
+}
+#footer_card{
+ width: 100%;
+    display: flex;
+    gap: 50px;
+   
+}
+#footer_card>div{
+   width: 25%; 
+   margin: auto;
+   
+}
+#footer_card>div>h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#footer_card>div>a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+#footer_card>div>a:hover{
+    text-decoration: underline;
+}
+#footer_card>div:nth-child(4){
+    padding-bottom:95px;
+}
+#footer_card>div>p{
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+#contact_us{
+    font-size: 18px;
+}
+#last{
+    width: 100%;
+    height: 100px;
+    background-color:  #393a5d;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly
+}
+#last>div{
+    display: flex;
+    gap: 20px;
+}
+#last>div>img{
+    width: 30px;
+    cursor: pointer;
+   /* margin-left: -50px; */
+}
+#last>div>a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    /* margin-left: -30px;
+    margin-right: -30px; */
+}
+#last>p{
+    font-size: 14px;
+}
