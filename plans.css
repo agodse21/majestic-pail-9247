@@ -9,6 +9,9 @@ body{
     font-family:Arial,sans-serif;
 
 
+    font-family:Arial,sans-serif;
+
+
 }
 
 #tbody{
@@ -24,9 +27,15 @@ body{
     margin: auto;
    
 
+
+    /* border: 1px solid red; */
+    margin: auto;
+   
+
     border: 1px solid red;
     margin: auto;
     font-family:Arial,sans-serif;
+
 
 
 }
@@ -65,7 +74,14 @@ body{
 }
 #navbar>div>div>p>a:hover{
     color: blue;
+
+    /* border-bottom: 3px solid blue; */
+    text-decoration: underline 4px;
+    text-underline-offset: 20px;
+    
+    
     border-bottom: 3px solid blue;
+
 }
 
 #request_btn{
@@ -431,6 +447,12 @@ body{
         text-decoration: none;
     }
 
+    #solutions213>a:hover{
+      margin-right: 20px;
+      color: black;
+    }
+
+
 
     /*--------------------------------Additional--------------------------------------------------------*/
     
@@ -517,6 +539,24 @@ body{
     color: blue;
     text-decoration: none;
 }
+
+#additional24>a:hover{
+  margin-right: 20px;
+  color: black;
+}
+
+.button__svg{
+  height: 15px;
+  width: 30px;
+  color: blue;
+  margin-left: 10px;
+}
+.button__svg:hover{
+  margin-left: 20px;
+ 
+}
+
+
 
 
 /*-----------------------------------Ready-----------------------------------------------------*/
@@ -716,9 +756,23 @@ body{
   #footer22{
     height: 50%;
     width: 40%;
+
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #footer22>svg{
+    padding: 10px;
+  }
+
     border: 1px solid red;
     margin: auto;
   }
+
+
 
 
 
@@ -731,5 +785,6 @@ body{
     }
 
     
+
 
 
