@@ -629,6 +629,7 @@ a {
 /* /* *******************************************************section-11 style part end ******************************************************* */
 
 
+
 /* /* *******************************************************section-11 style part end ******************************************************* */
 
 
@@ -744,6 +745,91 @@ a {
 
 #last>p {
     font-size: 14px;
+=======
+#last {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    background-color: #080736;
+}
+
+#navbars {
+    width: 80%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    margin-top: 2%;
+}
+
+#lastimg {
+    width: 5%;
+}
+
+#space {
+    padding: 10px;
+    width: 200%;
+    font-size: 20px;
+}
+
+#lan {
+    font-size: 20px;
+    color: white;
+}
+
+#last_div {
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-template-rows: repeat(1, 200px);
+    gap: 73px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#last_div>div {
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#lining {
+    padding: 30px;
+}
+
+#last_p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#heading {
+    color: white;
+}
+
+
+/* /* *******************************************************section-11 style part end ******************************************************* */
+
+
+/* /* *******************************************************section-12 style part end ******************************************************* */
+
+#socal {
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+}
+
+#last_nav {
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
