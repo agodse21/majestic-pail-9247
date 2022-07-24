@@ -27,3 +27,8 @@ function getdata(e) {
     // console.log(name, last, email, company, job, phn, india)
     alert("Your enter successfully !")
 }
+
+document.getElementById("logo").addEventListener("click",gotohome);
+function gotohome(){
+  window.location.href="index.html"
+}

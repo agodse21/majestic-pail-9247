@@ -72,3 +72,8 @@ if(el.email1===email.value){
     window.location.reload()
   }
 }
+
+document.getElementById("logo").addEventListener("click",gotohome);
+function gotohome(){
+  window.location.href="index.html"
+}

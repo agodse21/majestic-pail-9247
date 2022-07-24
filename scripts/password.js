@@ -10,3 +10,5 @@ let pass=()=>{
     }
 }
 document.getElementById("process").addEventListener('click',pass)
+
+

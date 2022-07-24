@@ -51,3 +51,9 @@ see_more_btn.addEventListener("click",function(){
 let see_more=()=>{
   window.location.href="./customer_storis.html"
 }
+
+
+document.getElementById("logo").addEventListener("click",gotohome);
+function gotohome(){
+  window.location.href="index.html"
+}

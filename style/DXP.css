@@ -350,8 +350,8 @@
     background-color: #080736;
     display: inline-flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    top: 90px;
     left: 0;
     z-index: 99;
 }

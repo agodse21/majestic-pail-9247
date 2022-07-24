@@ -1,11 +1,12 @@
-let nav=()=>{
-    return`<div id="header">
+let nav = () => {
+  return `<div id="header">
     <div id="navbar">
-        <img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg"
+  
+        <img  src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg"
             alt="logo" id="logo">
         <div id="main">
             <div>
-                <button id="Products"><a href="#">Products</a>
+                <button id="Products"><a href="products.html">Products</a>
                     <div class="mega-box">
                         <div class="content">
                             <div class="section">
@@ -198,8 +199,8 @@ let nav=()=>{
             </div>
 
 
-            <h1 id="Plans"><a href="#">Plans</a></h1>
-            <h1 id="Resources"><a href="#">Resources</a>
+            <h1 id="Plans"><a href="plans.html">Plans</a></h1>
+            <h1 id="Resources"><a href="DXP.html">Resources</a>
 
                 <div class="mega-box">
                     <div class="content">
@@ -282,7 +283,7 @@ let nav=()=>{
                         </path>
                     </svg>Search</a></div>
         </button>
-        <button id="Login"><a href="#"><img
+        <button id="Login"><a href="welcome.html"><img
                     src="https://www.optimizely.com/contentassets/19e2441ca72d4ea9a3f17e5f3a92bd16/login.svg"
                     id="lg" alt="login logo"> <span>Login</span> </a>
             <div class="sub-menu-1">
@@ -335,7 +336,7 @@ let nav=()=>{
 <p id="logout"></p>
     </div>
 
-</div>`
-}
+</div>`;
+};
 
 export default nav;

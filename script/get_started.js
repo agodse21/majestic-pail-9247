@@ -1,7 +1,14 @@
-import navbar from "../components/navbar.js";
+import nav from "../component/nav.js"
 
-let nav = document.getElementById("navbar");
-nav.innerHTML = navbar();
+let navb = document.getElementById("navbar");
+navb.innerHTML = nav();
 
 let create_acc=document.getElementById("create_acc");
 create_acc.innerText="Get started";
+
+
+
+document.getElementById("logo").addEventListener("click",gotohome);
+function gotohome(){
+  window.location.href="index.html"
+}

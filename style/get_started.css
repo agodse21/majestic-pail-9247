@@ -3,106 +3,10 @@
     margin: 0;
     font-family:Arial,sans-serif;
 }
-#navbar{
-    margin-top: -80px;
-    width: 100%;
-    height: 80px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    background-color: white;
-}
 
- #first_div{
-    width: 50%;
-    height: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-} 
-#logo{
-    margin-right: -80px;
-}
-#logo_sec{
-    display: flex;
-  gap: 40px;
-  height: 100%;
-}
-#logo_sec>div>a{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-}
-#logo_sec>div:hover{
-    height: 100%;
-    
-    border-bottom: 4px solid blue;
-}
-#logo_sec>div>a:hover{
-    color: blue;
-    /* margin-bottom: -5px; */   
-}
-#second_div{
-    width: 35%;
-    height: 95%;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-right: 20px;
-    justify-content: space-evenly;
-}
-#second_div>div{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-#second_div>div>a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 15px;
-}
-.content:hover{
-    color: blue;
-    border-bottom: 4px solid blue;
-   
-}
-#second_div>div>a:hover{
-    color: blue;
-    /* margin-bottom: 5px; */
-}
-#second_div>div>a>img{
-    width: 25%;
-    margin-right:8px;
-    /* background-color: blue; */
-}
-#create_acc{
-    width: 200px;
-    padding: 15px;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    font-size: 18px;
-    background-color: blue;
-    
-}
-#create_acc:hover{
-    cursor: pointer;
-    background-color: rgb(3, 3, 152);
-}
 #first_sec{
     position: relative;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 100%;
     height: 1000px;
     /* position:absolute; */
@@ -129,7 +33,7 @@ position: relative;
 form{
     margin-top: 150px;
     width: 35%;
-    height: 700px;
+    height: 800px;
     background-color:#f6f6f6;
     padding: 30px;
   
