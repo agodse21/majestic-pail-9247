@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
 }
-#header{
+
+#header {
     width: 100%;
     margin: auto;
     background-color: #FFFF;
     position: relative;
     z-index: 1;
 }
-#navbar{
+
+#navbar {
     width: 90%;
     margin: auto;
     height: 90px;
@@ -19,113 +21,131 @@
     background-color: #FFFF;
     position: relative;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-a::after{
+
+a::after {
     content: '';
     width: 0;
     height: 4px;
     background-color: #0037ff;
-    margin: auto ;
+    margin: auto;
     display: block
 }
-a:hover:after{
+
+a:hover:after {
     width: 100%;
     margin-top: 35px;
-   
     transition: width 0.0s step-end;
 }
 
-h1{
+h1 {
     margin: 18px;
     font-size: 16px;
     padding: 17px;
     font-weight: 100;
     position: sticky;
 }
+
 #Products{
     margin:  18px ;
+
     padding: 16px;
     font-size: 16px;
     border: none;
     background-color: transparent;
 }
-#btn{
+
+#btn {
     height: 50px;
-    margin:  20px ;
+    margin: 20px;
     padding: 11px 32px;
-    font-family: Arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 17px;
     color: #FFFF;
     background-color: #0037ff;
-    border-radius:50px ;
+    border-radius: 50px;
     border: none;
 }
-#btn:hover{
-background-color: #071576;
+
+#btn:hover {
+    background-color: #071576;
 }
-#search{
+
+#search {
     margin: 18px;
     padding: 16px;
-border: none;
-background-color: transparent;
-font-family: Arial,sans-serif;
-font-size: 16px;
-font-weight:100;
+    border: none;
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
 }
-#Login{
+
+#Login {
     padding: 16px;
     margin: 20px;
     border: none;
     background-color: transparent;
 }
 
-#logo{
+#logo {
     width: 10%;
     height: 80px;
     margin: 0px auto;
 }
-#logo:hover{
+
+#logo:hover {
     cursor: pointer;
 }
-#main{
+
+#main {
     height: 90px;
     display: flex;
     margin: 0px 350px 0px 0px;
 }
-#main>h1{
+
+#main>h1 {
     padding: 16px;
 }
-#lg{
-    margin:-4 10px;
+
+#lg {
+    margin: -4 10px;
 }
-#lgn{
-    margin:-3 10px;
+
+#lgn {
+    margin: -3 10px;
 }
-.sub-menu-1{
+
+.sub-menu-1 {
     display: none;
     top: 90px;
 }
-#Login{
+
+#Login {
     font-size: 16px;
 }
+
 #Login:hover .sub-menu-1 {
     display: block;
     position: fixed;
-    background: rgb(246,246,246);
+    background: rgb(246, 246, 246);
     margin-top: 1px;
     margin-left: -18px;
     transition: all 1.0s step-end;
 }
-#Login:hover .sub-menu-1 ul{
+
+#Login:hover .sub-menu-1 ul {
     top: 90px;
     text-align: start;
     display: block;
     margin: 10px;
 }
-#Login:hover .sub-menu-1 ul li{
+
+#Login:hover .sub-menu-1 ul li {
     width: 250px;
     padding: 15px;
     font-weight: 600;
@@ -133,70 +153,78 @@ font-weight:100;
     list-style: none;
     color: #0037ff;
 }
-#Login:hover .sub-menu-1 ul li:hover{
+
+#Login:hover .sub-menu-1 ul li:hover {
     color: black;
-  
 }
-#Login:hover .sub-menu-1 ul p{
-     margin-left: 15px;
+
+#Login:hover .sub-menu-1 ul p {
+    margin-left: 15px;
 }
-#Login:hover .sub-menu-1 ul .button__svg{
+
+#Login:hover .sub-menu-1 ul .button__svg {
     margin-left: 15px;
     color: #0037ff;
 }
-.mega-box{
+
+.mega-box {
     position: fixed;
     width: 2480px;
     right: -260px;
     opacity: 0;
     visibility: hidden;
 }
-.mega-box .section{
-    background: rgb(246,246,246);
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+
+.mega-box .section {
+    background: rgb(246, 246, 246);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     width: 80%;
     gap: 40px;
     height: 600px;
-   margin: auto;
+    margin: auto;
 }
-.section .row{
-   width:0px;
-   margin:40px auto 0px;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-   list-style: none;
-   padding: 0 10px;
+
+.section .row {
+    width: 0px;
+    margin: 40px auto 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    list-style: none;
+    padding: 0 10px;
 }
-#Resources:hover .mega-box,#Products:hover .mega-box{
+
+#Resources:hover .mega-box,
+#Products:hover .mega-box {
     top: 90px;
     opacity: 1;
     visibility: visible;
-    transition:  all 0.8s ease-out;
+    transition: all 0.8s ease-out;
 }
 
-#IMG{
+#IMG {
     width: 193.86px;
     height: 193.86px;
     margin-top: 25px;
-  
 }
-#firstrow{
-    margin-left:  12%;
+
+#firstrow {
+    margin-left: 12%;
 }
-#megalinks{
+
+#megalinks {
     width: 40%;
     text-align: left;
     display: grid;
     flex-direction: row;
-    margin: 40px 20px  -0 -217% ;
+    margin: 40px 20px -0 -217%;
 }
-#megalinks .buttn{
+
+#megalinks .buttn {
     margin-top: 1px;
 }
 
-
-.section .row .mega-links{
+.section .row .mega-links {
     margin-left: -200px;
     font-size: 14px;
     border-left: 1px solid rgba(255, 255, 255, 0.08);
@@ -206,145 +234,163 @@ font-weight:100;
     line-height: 40px;
     list-style: none;
 }
-.mega-links li:hover{
-text-decoration: underline blue;
+
+.mega-links li:hover {
+    text-decoration: underline blue;
 }
-header{
+
+header {
     color: #0037ff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
-   
     margin-bottom: 10px;
     margin-right: 30px;
-   font-weight: 500;
+    font-weight: 500;
 }
-.buttn{
+
+.buttn {
     width: 700px;
     height: 50px;
     line-height: 15px;
     display: flex;
-
 }
 
-
-.buttn li{
+.buttn li {
     padding: 5px 10px;
     text-align: center;
-    margin:  auto 5px;
+    margin: auto 5px;
     color: #0037ff;
     font-size: 14px;
     border: 1px solid blue;
     border-radius: 20px;
 }
-.buttn li:hover{
+
+.buttn li:hover {
     background-color: #0037ff;
     color: white;
 }
 
-header:hover #svg{
-  
-   margin-left: 20px;
-   
+header:hover #svg {
+    margin-left: 20px;
 }
-#Login:hover .sub-menu-1 ul li:hover #svg{
-    margin-left: 40px; 
+
+#Login:hover .sub-menu-1 ul li:hover #svg {
+    margin-left: 40px;
 }
-#first{
-   
+
+#first {
     display: grid;
-    grid-template-columns: repeat(3,350px);
-    margin:-60px 500px -20px ; 
+    grid-template-columns: repeat(3, 350px);
+    margin: -60px 500px -20px;
     border-top: 5px solid rgba(255, 255, 255, 0.08);
 }
-#first div{
+
+#first div {
     margin-right: 5px;
-   color: #0037ff;
-   
+    color: #0037ff;
 }
-#first div:hover{
+
+#first div:hover {
     color: black;
 }
-#first div img{
+
+#first div img {
     margin-bottom: 18px;
     border-radius: 5px;
 }
-#pro{
+
+#pro {
     width: 70%;
     display: grid;
 }
+
+
 /* <====================================Products drop-dwon========================================>< */
 
-#megalink{
+#megalink {
     width: 1200px;
-    margin:70px auto 0 400px;
+    margin: 70px auto 0 400px;
     text-align: left;
     display: grid;
 }
-#manhead{
+
+#manhead {
     color: black;
     font-size: 14px;
     margin: 10px;
 }
-#p{
+
+#p {
     margin-top: -150px;
 }
-.bttn{
+
+.bttn {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: -130px;
 }
 
-.bttn img{
+.bttn img {
     width: 35px;
     height: 35px;
 }
-.bttn #bttn1,.bottn #bttn1{
+
+.bttn #bttn1,
+.bottn #bttn1 {
     width: 100%;
     display: flex;
 }
-.bottn{
+
+.bottn {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: -130px;
 }
-.bottn img{
+
+.bottn img {
     width: 35px;
     height: 35px;
 }
-#svg{
+
+#svg {
     margin-left: 10px;
 }
-#p{
+
+#p {
     margin-top: -95px;
 }
-#lastend{
+
+#lastend {
     width: 100%;
     margin-top: 50px;
     padding-top: 20px;
     display: flex;
     border-top: 1px solid black;
 }
-#lastend div{
+
+#lastend div {
     margin-right: 50px;
     font-size: 17px;
     font-weight: 900;
 }
-#lastend div header{
+
+#lastend div header {
     font-size: 17px;
     font-weight: 500;
- 
 }
 
+
 /* <====================================logout========================================>< */
-#logout{
+
+#logout {
     margin: auto;
- 
     border-radius: 50px;
     background-color: #0037ff;
     color: #FFFF;
 }
-#logout:hover{
-background-color: #071576;
+
+#logout:hover {
+    background-color: #071576;
 }

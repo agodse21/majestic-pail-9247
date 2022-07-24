@@ -2,6 +2,9 @@
 body{
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
+    font-family:Arial,sans-serif;
+=======
 
     font-family:Arial,sans-serif;
 
@@ -12,11 +15,17 @@ body{
     font-family:Arial,sans-serif;
 
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
 }
 
 #tbody{
     height: auto;
     width: 90%;
+<<<<<<< HEAD
+    /* border: 1px solid red; */
+    margin: auto;
+   
+=======
 
     /* border: 1px solid red; */
     margin: auto;
@@ -38,6 +47,7 @@ body{
 
 
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
 }
 
 
@@ -74,14 +84,20 @@ body{
 }
 #navbar>div>div>p>a:hover{
     color: blue;
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
     /* border-bottom: 3px solid blue; */
     text-decoration: underline 4px;
     text-underline-offset: 20px;
     
     
+<<<<<<< HEAD
+=======
     border-bottom: 3px solid blue;
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
 }
 
 #request_btn{
@@ -333,7 +349,10 @@ body{
     /*---------------------------------------Solutions just for you----------------------------------------*/
 
     #solutions{
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
         height: 750px;
         width: 100%;
         /* border: 1px solid red; */
@@ -446,14 +465,20 @@ body{
         color: blue;
         text-decoration: none;
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
     #solutions213>a:hover{
       margin-right: 20px;
       color: black;
     }
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
     /*--------------------------------Additional--------------------------------------------------------*/
     
 
@@ -539,7 +564,10 @@ body{
     color: blue;
     text-decoration: none;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
 #additional24>a:hover{
   margin-right: 20px;
   color: black;
@@ -558,7 +586,10 @@ body{
 
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
 /*-----------------------------------Ready-----------------------------------------------------*/
 
 #ready{
@@ -693,6 +724,8 @@ body{
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -716,6 +749,7 @@ body{
 
 
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
   #footer2{
     height: 20%;
     width: 100%;
@@ -756,7 +790,10 @@ body{
   #footer22{
     height: 50%;
     width: 40%;
+<<<<<<< HEAD
+=======
 
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
     /* border: 1px solid red; */
     margin: auto;
     display: flex;
@@ -768,6 +805,8 @@ body{
     padding: 10px;
   }
 
+<<<<<<< HEAD
+=======
     border: 1px solid red;
     margin: auto;
   }
@@ -785,6 +824,7 @@ body{
     }
 
     
+>>>>>>> a6039f2a2f63fa46918c33485d6d4fa0df05ac9c
 
 
 
