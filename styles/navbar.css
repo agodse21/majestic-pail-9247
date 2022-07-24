@@ -9,6 +9,7 @@
     margin: auto;
     background-color: #FFFF;
     position: relative;
+    z-index: 1;
 }
 #navbar{
     width: 90%;
@@ -44,7 +45,7 @@ h1{
     font-weight: 100;
     position: sticky;
 }
-#products{
+#Products{
     margin:  18px ;
     padding: 16px;
     font-size: 16px;
