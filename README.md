@@ -9,3 +9,15 @@ Masai Unit-3 Construct Week Project - Clone of https://www.optimizely.com/
 * Sonu Prasad
 * Varinder Brar
 * Sanjay Gupta
+
+## Project Link
+>https://warm-panda-3840f7.netlify.app/
+
+
+## Tools
+* HTML
+* CSS
+* JAVASCRIPT
+* ES6
+* IMPORT EXPORT
+* LOCALSTORAGE
